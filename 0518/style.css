@@ -1,7 +1,32 @@
 body {
-  background-color: aqua;
+  background-color: #6bbcbe;
 }
 
+@keyframes circleFlip {
+  0% {
+    transform: rotateZ(0);
+  }
+  50% {
+    transform: rotateZ(180deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes stickMotion {
+  0% {
+  }
+  50% {
+    transform: scaleY(2);
+  }
+  75% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
 .box {
   display: flex;
   align-items: center;
@@ -9,6 +34,7 @@ body {
   position: absolute;
   top: 40%;
   left: 50%;
+  animation: circleFlip 3s ease-in-out infinite;
 }
 
 .first,
@@ -38,4 +64,26 @@ body {
   height: 60px;
   background-color: white;
   margin: 10px;
+}
+
+.firstBox {
+  animation: stickMotion 1s ease-in-out infinite;
+  animation-delay: -1s;
+}
+
+.secondBox {
+  animation: stickMotion 1s ease-in-out infinite;
+  animation-delay: -0.8s;
+}
+.thirdBox {
+  animation: stickMotion 1s ease-in-out infinite;
+  animation-delay: -0.7s;
+}
+.forthBox {
+  animation: stickMotion 1s ease-in-out infinite;
+  animation-delay: -0.6s;
+}
+.fifthBox {
+  animation: stickMotion 1s ease-in-out infinite;
+  animation-delay: -0.5s;
 }
