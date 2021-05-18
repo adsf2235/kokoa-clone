@@ -1,0 +1,41 @@
+body {
+  background-color: aqua;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+
+.first,
+.second,
+.third {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 20px;
+}
+
+.boxTwo {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+}
+
+.firstBox,
+.secondBox,
+.thirdBox,
+.forthBox,
+.fifthBox {
+  width: 20px;
+  height: 60px;
+  background-color: white;
+  margin: 10px;
+}
