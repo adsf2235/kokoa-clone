@@ -2,12 +2,15 @@
 
 :root {
   --margin-top: 30px;
+  --gray-color: #eaeaea;
 
   /*NAV BAR*/
   --nav-bar-side-margin: 10px;
   --nav-bar-bg: #ffce33;
   --nav-bar-height: 110px;
-  --nav-bar-btn-size: 20px;
+  --nav-bar-btn-size: 25px;
+  /*SEARCHING*/
+  --searching-height: 60px;
 }
 
 body {
@@ -26,7 +29,6 @@ nav {
   justify-content: space-between;
   margin: var(--margin-top) 0;
   background-color: var(--nav-bar-bg);
-  padding: 0 var(--nav-bar-side-margin);
   width: 100%;
   height: var(--nav-bar-height);
   align-items: center;
@@ -34,6 +36,7 @@ nav {
 
 nav button {
   font-size: var(--nav-bar-btn-size);
+  margin: 0 var(--nav-bar-side-margin);
 }
 
 nav .navTitle {
@@ -45,4 +48,36 @@ nav .navTitle {
 .searching {
   display: flex;
   justify-content: center;
+  width: 100%;
+  background-color: violet;
+  text-align: center;
+  position: relative;
+}
+
+.searchingBg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  background-color: white;
+  border: white 1px solid;
+  border-radius: 40px;
+  height: var(--searching-height);
+  position: absolute;
+  top: -50px;
+  box-shadow: 0px 18px 20px -15px gray;
+}
+
+.searching button {
+  margin-right: 40px;
+  color: var(--gray-color);
+}
+
+input {
+  height: 20px;
+  all: unset;
+}
+
+input::placeholder {
+  color: var(--gray-color);
 }
