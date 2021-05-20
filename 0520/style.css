@@ -20,6 +20,8 @@
   --basic-font-weight: 500;
   --title-img-width: 150px;
   --title-img-height: 230px;
+  --list-img-width: 100px;
+  --list-img-height: 150px;
 }
 
 body {
@@ -206,3 +208,34 @@ input::placeholder {
   margin-left: 40px;
   border-radius: 8px;
 }
+
+/*      TOP ADVENTURES      */
+.topAdventures {
+  font-size: var(--title-size);
+  font-weight: var(--title-weight);
+}
+
+.imageAndStars {
+  display: flex;
+  margin: var(--margin-top) 0;
+}
+
+.imageAndStars img {
+  width: var(--list-img-width);
+  height: var(--list-img-height);
+  border-radius: 10px;
+  margin-right: var(--margin-top);
+  margin-bottom: 15px;
+}
+
+.stars {
+  color: var(--yellow-color);
+  font-size: 10px;
+}
+
+.stars i {
+  margin: 0 4px;
+  text-align: center;
+}
+
+/*      POPULAR AUTHORS     */
