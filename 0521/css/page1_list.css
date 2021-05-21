@@ -51,9 +51,14 @@
 .list_page1_second-list img {
   position: relative;
   left: -10px;
+  box-shadow: none;
 }
 
 .list_page1_second-list i {
   position: relative;
   left: 10px;
+}
+
+.list_page1_forth-list {
+  margin-bottom: 0px;
 }
