@@ -1,0 +1,8 @@
+.nav-component {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-component button {
+  color: #4c4c4c;
+}
