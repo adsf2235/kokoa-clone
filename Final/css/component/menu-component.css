@@ -1,0 +1,17 @@
+.menu__component__icons {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  background-color: var(--RED-COLOR);
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.menu__component__icons i {
+  color: var(--WHITE-COLOR);
+  font-size: 50px;
+}

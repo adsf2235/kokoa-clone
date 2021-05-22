@@ -1,0 +1,6 @@
+@import url(screen/reset.css);
+@import url(screen/variables.css);
+
+/*      COMPONENT       */
+@import url(component/menu-component.css);
+@import url(component/nav-component.css);
