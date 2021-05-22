@@ -4,3 +4,6 @@
 /*      COMPONENT       */
 @import url(component/menu-component.css);
 @import url(component/nav-component.css);
+
+/*      SCREEN      */
+@import url(screen/main.css);

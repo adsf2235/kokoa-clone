@@ -1,0 +1,28 @@
+.nav__component {
+  display: flex;
+  background-color: var(--RED-COLOR);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__component__title {
+  font-size: var(--TITLE-FONT-SIZE);
+  font-weight: var(--TITLE-FONT-WEIGHT);
+  color: var(--WHITE-COLOR);
+}
+
+.nav__component__title span {
+  font-size: 35px;
+  font-weight: 900;
+  margin-right: 3px;
+}
+.nav__component__icons i {
+  color: var(--WHITE-COLOR);
+  font-size: 20px;
+  margin-left: 20px;
+}
