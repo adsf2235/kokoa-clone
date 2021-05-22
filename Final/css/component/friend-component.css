@@ -1,0 +1,48 @@
+.friend__component {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 30px;
+  position: relative;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--WHITE-COLOR);
+  background-color: var(--RED-COLOR);
+  border-radius: 20px;
+  padding: 5px 10px;
+  width: 18%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.friend__component__column {
+  border-bottom: rgba(0, 0, 0, 0.1) solid 3px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.imgandname {
+  display: flex;
+  align-items: center;
+}
+
+.friend__component img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+
+.imgandname div {
+  font-size: 20px;
+  font-weight: 800;
+  margin-left: 20px;
+}
+
+.friend__component__column i {
+  font-size: 30px;
+}

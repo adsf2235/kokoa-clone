@@ -9,6 +9,7 @@
   box-sizing: border-box;
   border-top-right-radius: 50px;
   border-top-left-radius: 50px;
+  z-index: 1;
 }
 
 .menu__component__icons i {
