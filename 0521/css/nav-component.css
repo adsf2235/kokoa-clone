@@ -1,9 +1,0 @@
-.nav-component {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px 30px;
-}
-
-.nav-component button {
-  color: #4c4c4c;
-}
