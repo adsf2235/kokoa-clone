@@ -127,3 +127,44 @@ body {
   color: var(--BLACK-COLOR);
   background-color: var(--WHITE-COLOR);
 }
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+.media-query {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150%;
+  z-index: -1;
+  display: none;
+}
+
+.media-query .text {
+  color: var(--WHITE-COLOR);
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.media-query .title {
+  width: 100%;
+  font-size: 40px;
+  margin: 50px 0;
+}
+
+.media-query img {
+  width: 500px;
+  margin-bottom: 50px;
+}
+@media screen and (min-width: 768px) {
+  .media-query {
+    background-color: var(--RED-COLOR);
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

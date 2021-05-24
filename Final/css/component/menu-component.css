@@ -10,9 +10,21 @@
   border-top-right-radius: 50px;
   border-top-left-radius: 50px;
   z-index: 1;
+  animation: moveMenu 0.7s ease-in-out;
 }
 
 .menu__component__icons i {
   color: var(--WHITE-COLOR);
   font-size: 50px;
+}
+
+@keyframes moveMenu {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }

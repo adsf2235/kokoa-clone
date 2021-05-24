@@ -1,0 +1,38 @@
+.chats-list {
+  margin-top: 120px;
+}
+
+.name-and-chat {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-and-chat .chat {
+  opacity: 0.5;
+  margin-top: 30px;
+}
+
+.clock-and-badge {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clock-and-badge :first-child {
+  font-weight: 600;
+  opacity: 0.5;
+}
+
+.clock-and-badge .badge {
+  background-color: var(--ORANGE-COLOR);
+  color: var(--WHITE-COLOR);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  margin-top: 20px;
+}

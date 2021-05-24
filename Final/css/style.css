@@ -7,3 +7,5 @@
 @import url(component/friend-component.css);
 /*      SCREEN      */
 @import url(screen/main.css);
+@import url(screen/chats.css);
+@import url(screen/calendar.css);

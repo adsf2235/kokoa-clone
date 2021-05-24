@@ -1,0 +1,247 @@
+.last-match {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+  margin-top: 100px;
+}
+
+.last-match__title {
+  background-color: var(--RED-COLOR);
+  color: var(--WHITE-COLOR);
+  font-size: 20px;
+  font-weight: 600;
+  width: 30%;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+.last-match__match-box {
+  display: flex;
+  background-color: rgba(181, 32, 56, 0.9);
+  color: var(--WHITE-COLOR);
+  border-radius: 10px;
+  margin-top: 15px;
+  flex-direction: column;
+}
+
+.home {
+  display: flex;
+}
+
+.away {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.home > span {
+  font-size: 100px;
+  font-weight: 800;
+  margin-left: 20px;
+}
+
+.away > span {
+  font-size: 100px;
+  font-weight: 800;
+  margin-right: 20px;
+}
+
+.last-match__match-box__bg {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 15px;
+  margin-top: 40px;
+}
+
+.logo-and-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-and-name span {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.last-match__match-box__bg img {
+  width: 120px;
+  height: 120px;
+}
+
+.match-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result {
+  background-color: rgba(78, 82, 71, 0.7);
+  width: 60px;
+  height: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.date {
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.stadium {
+  font-weight: 600;
+  color: var(--LIGHT-GREEN-COLOR);
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.last-match__score-info {
+  border-top: solid 3px rgba(250, 96, 90, 0.8);
+  padding: 15px 20px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+  font-weight: 600;
+}
+.last-match__score-info div {
+  margin-right: 10px;
+}
+
+.matchup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 150px;
+}
+
+.matchup__title-box {
+  display: flex;
+  align-items: center;
+  color: var(--WHITE-COLOR);
+  margin: 40px 20px;
+}
+
+.matchup__title-box .matchup-text {
+  background-color: var(--RED-COLOR);
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 18px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.matchup__title-box .round {
+  background-color: var(--RED-COLOR);
+  width: 60px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.matchup__title-box .btns {
+  display: flex;
+  flex-direction: column;
+  color: var(--RED-COLOR);
+  margin-left: 20px;
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+.matchup__title-box .btns button {
+  margin: -15px -9px;
+}
+
+.matchup__column {
+  display: flex;
+  flex-direction: row;
+  border-bottom: solid 4px var(--ORANGE-COLOR);
+}
+
+.matchup__column__match-list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-left: solid 3px var(--ORANGE-COLOR);
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.matchup__column img {
+  width: 80px;
+  height: 80px;
+  padding: 10px 0px;
+}
+
+.matchup__column__timebox {
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.matchup__column__match-list--home {
+  display: flex;
+  align-items: center;
+  width: 33%;
+}
+
+.matchup__column__match-list--home-team {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.matchup__column__match-list--center-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+
+  width: 33%;
+}
+
+.matchup__column__match-list--center-text .VS {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.matchup__column__match-list--away {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+
+  position: absolute;
+  right: 0%;
+}
+
+.matchup__column__match-list--away-team {
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 100px;
+  width: 100%;
+}
+
+.matchup__column__match-list--away img {
+  position: absolute;
+  right: 0%;
+  padding-right: 20px;
+}

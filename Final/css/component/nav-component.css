@@ -8,12 +8,14 @@
   box-sizing: border-box;
   justify-content: space-between;
   align-items: center;
+  z-index: 2;
 }
 
 .nav__component__title {
   font-size: var(--TITLE-FONT-SIZE);
   font-weight: var(--TITLE-FONT-WEIGHT);
   color: var(--WHITE-COLOR);
+  animation: navMove 0.5s ease-in-out;
 }
 
 .nav__component__title span {
@@ -23,6 +25,28 @@
 }
 .nav__component__icons i {
   color: var(--WHITE-COLOR);
-  font-size: 20px;
+  font-size: 25px;
   margin-left: 20px;
+}
+
+@keyframes navMove {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes cogMove {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ(180deg);
+  }
+}
+
+.fa-cog:hover {
+  animation: cogMove 1s linear infinite;
 }
